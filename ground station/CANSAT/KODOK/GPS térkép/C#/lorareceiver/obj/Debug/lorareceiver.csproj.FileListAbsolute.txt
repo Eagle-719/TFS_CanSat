@@ -1,0 +1,7 @@
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\bin\Debug\lorareceiver.exe.config
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\bin\Debug\lorareceiver.exe
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\bin\Debug\lorareceiver.pdb
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.csprojAssemblyReference.cache
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.csproj.CoreCompileInputs.cache
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.exe
+D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.pdb
