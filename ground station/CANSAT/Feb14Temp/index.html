@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Térkép</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            margin-top: 10px;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+        }
+        h3 {
+            text-align: center;
+            margin: 0;
+        }
+        #map {
+            margin: 10px auto;
+            width: 90%;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+        .error-message {
+            color: red;
+            text-align: center;
+        }
+        #data-container {
+            position: absolute;
+            top: 80px;
+            right: 60px;
+            width: 40%;
+            background-color: rgba(0, 128, 0, 0.25);
+            margin: 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-height: 250px;
+            overflow-y: auto;
+            font-family: monospace;
+            z-index: 1000;
+        }
+        #chart-container {
+            position: absolute;
+            right: 60px;
+            top: 250px;
+            width: 40%;
+            background-color: rgba(255, 216, 0, 0.25);
+            padding: 10px;
+            border: 1px solid #ccc;
+            max-height: 450px;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        #control-panel {
+            position: absolute;
+            top: 10px;
+            right: 60px;
+            background-color: rgba(200, 200, 200, 0.5);
+            padding: 10px;
+            border: 1px solid #ccc;
+            z-index: 1000;
+        }
+    </style>
+	
+    <script>
+        let map; // A Leaflet térkép objektum tárolására.
+        const markers = []; // A térképen megjelenített markerek tárolására.
+		const polylines = []; // A térképen megjelenített piros vonalak tárolására.
+        let chart; // A Chart.js grafikon objektum tárolására.
+        let dataStep = 5; // Alapértelmezett adatlépés: hány soronként dolgozza fel az adatokat.		
+
+        // Térkép inicializálása alapnézettel és csemperéteggel.
+        function initializeMap() {
+            map = L.map('map').setView([47.500585, 19.258504], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 25
+            }).addTo(map);
+        }
+
+        // Chart.js grafikon inicializálása magasságadatok megjelenítésére.
+        function initializeChart() {
+            const ctx = document.getElementById('chart').getContext('2d');
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [
+                        {
+                            label: 'Magasság (m)',
+                            data: [],
+                            borderColor: 'red',
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: false
+                            },
+                            ticks: {
+                                display: false
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Frissíti a grafikont az utolsó 10 magasságadattal.
+        function updateChart(dataLines) {
+            const filteredLines = dataLines.filter((_, index) => index % dataStep === 0); // Csak az adatlépésnek megfelelő sorokat használja.
+            const altitudes = filteredLines.slice(-10).map(line => {
+                const parts = line.split(',');
+                return parseFloat(parts[6]); // A 6. elem a magasság.
+            });
+
+            const labels = Array.from({ length: altitudes.length }, (_, i) => `Adatsor ${i + 1}`);
+
+            chart.data.labels = labels;
+            chart.data.datasets[0].data = altitudes;
+
+            chart.update();
+        }
+
+        // Frissíti az útvonalat és a magasságkülönbségeket a térképen.
+    //*****************************************************
+		function updateRoute(dataLines) {
+    const filteredLines = dataLines.filter((_, index) => index % dataStep === 0); // Csak az adatlépésnek megfelelő sorokat használja.
+    const coordinates = [];
+    const altitudes = [];
+    const relativeElevations = [];
+    let baseElevation = null;
+
+    filteredLines.forEach(line => {
+        const parts = line.split(',');
+
+        if (parts.length >= 7) {
+            const lat = parseFloat(parts[4]);
+            const lon = parseFloat(parts[5]);
+            const alt = parseFloat(parts[6]);
+
+            if (
+                !isNaN(lat) && lat >= 45.7 && lat <= 48.6 &&
+                !isNaN(lon) && lon >= 16.1 && lon <= 22.9 &&
+                !isNaN(alt)
+            ) {
+                coordinates.push([lat, lon]);
+                altitudes.push(alt);
+            }
+        }
+    });
+
+    if (altitudes.length > 0) {
+        const first10Altitudes = altitudes.slice(0, 10);
+        baseElevation = first10Altitudes.reduce((sum, val) => sum + val, 0) / first10Altitudes.length;
+    }
+
+    coordinates.forEach((coord, index) => {
+        const relativeElevation = altitudes[index]; //- baseElevation; itt lehet relatív magasságot beállítani
+        relativeElevations.push(relativeElevation);
+    });
+
+    // Korábbi markerek eltávolítása
+    markers.forEach(marker => map.removeLayer(marker));
+    markers.length = 0;
+
+    // Korábbi vonalak eltávolítása
+    console.log("Eltávolítandó vonalak száma:", polylines.length); // Debugging
+    polylines.forEach(line => map.removeLayer(line));
+    polylines.length = 0;
+
+    coordinates.forEach((coord, index) => {
+        const blueMarker = L.circleMarker(coord, {
+            radius: 5,
+            color: 'blue',
+            fillColor: 'blue',
+            fillOpacity: 0.5
+        }).addTo(map);
+        markers.push(blueMarker);
+
+        const elevatedCoord = [coord[0] + (relativeElevations[index] / 100000), coord[1]];
+        const redMarker = L.circleMarker(elevatedCoord, {
+            radius: 1,
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.5
+        }).addTo(map);
+        markers.push(redMarker);
+
+        const polyline = L.polyline([coord, elevatedCoord], {
+            color: 'red',
+            weight: 1
+        }).addTo(map);
+        polylines.push(polyline); // A piros vonalat is tároljuk
+    });
+
+    
+}
+
+	//*****************************************************
+        // Adatok beolvasása és az interfész frissítése.
+        function updateData() {
+            fetch('adatok.txt?timestamp=' + new Date().getTime())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Hiba: ${response.status} - ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    const lines = text.split('\n').filter(line => line.trim() !== '');
+                    updateLast10Lines(lines);
+                    updateChart(lines);
+                    updateRoute(lines);
+                })
+                .catch(error => {
+                    console.error('Hiba történt a fetch során:', error);
+                    document.getElementById('error').textContent = `Hiba: ${error.message}`;
+                });
+        }
+
+        // Az utolsó 10 adat megjelenítése a "data-container" elemben.
+        function updateLast10Lines(dataLines) {
+            const filteredLines = dataLines.filter((_, index) => index % dataStep === 0); // Csak az adatlépésnek megfelelő sorokat használja.
+            const last10Lines = filteredLines.slice(-10);
+            const dataContainer = document.getElementById('data-container');
+            dataContainer.textContent = last10Lines.join('\n');
+        }
+
+        // Az oldal betöltésekor lefutó inicializálás és a vezérlők beállítása.
+        window.onload = () => {
+            
+			document.getElementById('data-step-input').value = dataStep;
+            document.getElementById('data-step-input').addEventListener('change', (event) => {
+                const newValue = parseInt(event.target.value, 10);
+                if (!isNaN(newValue) && newValue > 0) {
+                    dataStep = newValue; // Frissíti az adatlépést a felhasználó által megadott értékre.
+                }
+            });
+            document.getElementById('start-button').addEventListener('click', () => {
+                $.ajax({
+                    url: 'write_flag.php',
+                    method: 'POST',
+                    data: { flag: 'TRUE' },
+                    success: function () {
+                        alert('Adatok küldése elindítva!');
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Hiba történt: ' + error);
+                    }
+                });
+            });
+            document.getElementById('stop-button').addEventListener('click', () => {
+                $.ajax({
+                    url: 'write_flag.php',
+                    method: 'POST',
+                    data: { flag: 'FALSE' },
+                    success: function () {
+                        alert('Adatok küldése leállítva!');
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Hiba történt: ' + error);
+                    }
+                });
+            });
+    		initializeMap();
+            initializeChart();
+            updateData();
+            setInterval(updateData, 500);
+        };
+    </script>
+</head>
+<body>
+     <header>
+        <img src="tfslogo.png" alt="TFS Logo">
+        <h3>TFS GPS Térkép</h3>
+    </header>
+
+    <div id="control-panel">
+        <label for="data-step-input">Adatsorok lépése: </label>
+        <input type="number" id="data-step-input" min="1" value="5">
+        <button id="start-button">Adatok küldése indítása</button>
+        <button id="stop-button">Adatok küldése leállítása</button>
+    </div>
+
+    <div id="data-container">
+        <h5>Az utolsó 10 adatsor</h5>
+    </div>
+
+    <div id="chart-container">
+        <h5>Utolsó 10 magasság</h5>
+        <canvas id="chart"></canvas>
+    </div>
+
+    <div id="map"></div>
+    <div id="error" class="error-message"></div>
+</body>
+</html>
