@@ -7,10 +7,6 @@ The ground station:
 - the web server receives, visualizes, is publically accessible, but does not allow interference.
 
 Under dev.:
-- php send adress is wrong
+- php send adress to be decided
 - temperature and pressure graphs in visualization
 - interface and resend are under devlopment
-
-Questions:
-- ground station module code, communication
-- satelite hardware code (not urgent)
