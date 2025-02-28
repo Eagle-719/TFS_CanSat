@@ -1,0 +1,1987 @@
+{
+  "schematics": {
+    "81e28682bf89485fb72307933604b775": {
+      "name": "Aux Board",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "87805a56622a452199d8016e8c8cac8f"
+        }
+      ]
+    },
+    "1c2703e82cb44082bbc8c39acb681d67": {
+      "name": "Full Hardware",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "82c682d77434483bb09ef7bb852c9e08"
+        }
+      ]
+    },
+    "05830e751d594c8395558bba29865d87": {
+      "name": "Main Board",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "7a307169acb04463b342a4056fd7d376"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "a4f66a0989e7459bbca8286e4263dcb2": "Aux PCB",
+    "301bf6637ece4a0684339634380c1293": "Full PCB (concept)",
+    "c137c4df5d9e4c59aba1a40aacdd615f": "Main PCB"
+  },
+  "panels": {},
+  "symbols": {
+    "ed75148ffc964abbb7d00fd981447952": {
+      "source": "ad039decc20ecd7bdf5014346f2875ed",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10k",
+      "version": "5eb6723ef548e67c7ac37dd4395b8d55",
+      "type": 2
+    },
+    "3631b46c22f64584996bb23ef1dbc1d1": {
+      "source": "7ef605fc8dba5425d6965fbd4c8fbe1f",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "150",
+      "version": "5eb6723ef548e67c7ac37dd4395b8d55",
+      "type": 2
+    },
+    "5f40abec1ff244fe8285f40ecc7fd216": {
+      "source": "ed219438d1828fa614b25c079a9d66fc",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "A_A4",
+      "version": "bc609450eff7e48d3f98cb74eda98760",
+      "type": 20
+    },
+    "c05b94329e524faabcd1833d54145a19": {
+      "source": "d1d2e0718bcca5a075379ec634489ccc",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "BH-18650",
+      "version": "87ad58c2a228a62dfeeee617ef612590",
+      "type": 2
+    },
+    "32054e5b80274123818c0aca8de8a54f": {
+      "source": "c2a45e0ffdf3a5e10cd6af41822d3418",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "BMP280",
+      "version": 1740735046955,
+      "type": 2
+    },
+    "c0452078d16842068dc654e40d2cc8db": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "d2ed8f1cfd704eb19b83fb320b6dd4f1": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "95c2d3044e52c8e3322d473919e98840",
+      "type": 18
+    },
+    "492c63e875a14c6e9f1d2c2491ca3e0a": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "3a0fca0972aeb35fec6f375990059ecb",
+      "type": 18
+    },
+    "4e43b0dc7e054e15bbc9660951fc2e7e": {
+      "source": "db60b90c8e914acb8dad63169cb5eb98|1bca3ccc6f2c40519a6f771746d33905",
+      "desc": "Gps",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "GNSS-14-CLICK",
+      "version": "1740688503",
+      "type": 2
+    },
+    "e5a1fb9af0ae4a7c86833f54d42a4e77": {
+      "source": "df9bab3a5a9943a2fbfd235db6688fd6",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "GPSmikrob",
+      "version": 1740734323207,
+      "type": 2
+    },
+    "1549e689e01449a5a7014d89d0d3bfda": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "865868813c5949aebaebd17fad5fa810": {
+      "source": "06b9eb8d3c844830bc862f3d86bbd6d9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "HDR_1x1",
+      "version": "1657001778",
+      "type": 2
+    },
+    "b364e4a210b046b8b19370f885d56aad": {
+      "source": "06b9eb8d3c844830bc862f3d86bbd6d9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "HDR_1x1",
+      "version": "1657001778",
+      "type": 2
+    },
+    "7ff9fcdcd6d14633bb47f97f68f7447c": {
+      "source": "06b9eb8d3c844830bc862f3d86bbd6d9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "HDR_1x1",
+      "version": "1657001778",
+      "type": 2
+    },
+    "51d8ed0fb020492d9141901073f5f306": {
+      "source": "a89715cbb56d851ee0c8cb5c8b52ee06",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "HW290",
+      "version": "35952bf9280aa65bb0f9e4ec9cec8dec",
+      "type": 2
+    },
+    "dd250e52aeb2485f887e733ff988b106": {
+      "source": "5b26c69157c43ab480e62ea5b4eed863",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "IRLZ44NSPBF-VB",
+      "version": "2e853e7a5efb77cda4f01079ba14d41d",
+      "type": 2
+    },
+    "b7db0c1b503e411da8ed529553f96227": {
+      "source": "69691c7bdcc3ce6d5d8a1361f22d04ac",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "M",
+      "version": "e38b71565da17a42a7b3bca5cfe72990",
+      "type": 2
+    },
+    "e9452366904e45fcaed1e752939641a7": {
+      "source": "e29487a6b7c3472984cced15b65db6a7|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "MICROSD SHIELD WEMOS D1 MINI",
+      "version": "1739849647",
+      "type": 2
+    },
+    "74e56f0c258c40a38a49dcff713611be": {
+      "source": "b4fc5614febe4d0c966db51b22af788e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1723254107",
+      "type": 18
+    },
+    "e235c3853a684cd5a9f265d6fde9a7d2": {
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "RASPBERRY-PI-PICO",
+      "version": "06d6aecdbe9099f64c32569fe556577a",
+      "type": 2
+    },
+    "5d16c47021564053bc696f088ab7a01b": {
+      "source": "e5f479cbc3f04dbf8d19c2a70c1924cb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Screw-Hole",
+      "version": "1704952034",
+      "type": 2
+    },
+    "809d6ef484694d65a9c6c2eaac17579f": {
+      "source": "b604fbca6f671cbd625ae26e0e3d6fd1",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SK-12D02-VG5",
+      "version": "fd6f6b28fc2129512c38516f43b85709",
+      "type": 2
+    },
+    "2838fff4815442daa0ea7872480bb1f0": {
+      "source": "ee1adfe4a7881cbad5fa3e8aa840cb3b",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "TPA4056",
+      "version": "252cf30408ff0635277c01ae9e6a1b89",
+      "type": 2
+    },
+    "ad418a8705f3438c8cbd07ad55de140d": {
+      "source": "01db972763294804a52bbb74cc96a867",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VCC",
+      "version": "daca17e3ea8115769fb046e1c406d8a9",
+      "type": 18
+    },
+    "598fcef7b7124212bff633b064eee9ad": {
+      "source": "01db972763294804a52bbb74cc96a867",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VCC",
+      "version": "f2e84fe76375caf8395100ee8bf21fc4",
+      "type": 18
+    },
+    "87d6547e1e674c18bcf248a4452fa61b": {
+      "source": "6bb7580a82a14afe9533f94424cbcce3",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "WRL089",
+      "version": "a25b40de0bec1ffcefb4675c04fe76ab",
+      "type": 2
+    },
+    "781b28fa6f674a03a3016ef81728c6a4": {
+      "source": "",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Board Connect",
+      "version": 1740754246505,
+      "type": 17
+    }
+  },
+  "footprints": {
+    "80538d4f165145219b8fe5c05611bbb6": {
+      "title": "10DOF-HW290",
+      "source": "71ac4d2e80baa5f73f22863d137415ab",
+      "version": "34f95553323fd49e4d957c2d5825497f",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "1b5e6557b6874b8399827b8d2b965f4e": {
+      "title": "10DOF-HW290",
+      "source": "",
+      "version": 1740755632056,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "5d6ab4b11cb84ee385f4724de0671c36": {
+      "title": "BATTERY-SMD_18650-1S-L77.1-W20.7-1",
+      "source": "a47ad786b03b2ff50368c3ae0d2a81d2",
+      "version": "d1ddde62141ab21ad4e88cff788ebfbe",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "008ceaf62a93475b8f10012588728e11": {
+      "title": "BATTERY-SMD_18650-1S-L77.1-W20.7-1",
+      "source": "",
+      "version": 1740678712765,
+      "type": 4,
+      "desc": ";SMD;SMD-2P;smd",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "bc2a1be7da8a4328b7d7aae936b4813e": {
+      "title": "BMP280YSF BMP280YSF BMP280YSF BMP",
+      "source": "d6b277760ee23e8cc9bb5b8dd1f32ce0",
+      "version": "f9aac804f4eadf9c8b3184cb971fe789",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "458f43976e514516a5e5b77959c28d3f": {
+      "title": "BMP280YSF BMP280YSF BMP280YSF BMP",
+      "source": "d6b277760ee23e8cc9bb5b8dd1f32ce0",
+      "version": "3d5dac9ba0568ce8a144f61371be8492",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "894549460ae64334b92f177656bf13c8": {
+      "title": "BMP280YSF BMP280YSF BMP280YSF BMP",
+      "source": "",
+      "version": 1740735034843,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "a25b09f732674062ae9e667d7f50b3d6": {
+      "title": "GY-GPS6MV2GPSMODUL",
+      "source": "20cb1b281a4ec26be66a69d78287db58",
+      "version": "2ce17fed9c80deaeb70f551282d18505",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "d4e94a69f2864d03b8101d0b105a6a61": {
+      "title": "GY-GPS6MV2GPSMODUL",
+      "source": "20cb1b281a4ec26be66a69d78287db58",
+      "version": "49a0a350779856eb05235be09defb880",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e78ac251adbd4195b51626f44a392e0f": {
+      "title": "GY-GPS6MV2GPSMODUL",
+      "source": "",
+      "version": 1740678715932,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "a49c1469bbd74c8d92a3e913079210da": {
+      "title": "HDR-M-2.54_1X2",
+      "source": "97539194b10504be0db435bed245ff0f",
+      "version": "c1860b7e00c52ed1b19e88811c01a551",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "21cc3402ef1b4208859f4f3448756f9c": {
+      "title": "HDR-M-2.54_1X2",
+      "source": "97539194b10504be0db435bed245ff0f",
+      "version": "07a1f057830358bc3698d7cd4612695c",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "4cff6af1491a4c78bd1aa6b9f1b679b6": {
+      "title": "HDR-M-2.54_1X2",
+      "source": "",
+      "version": 1740678715487,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "926b77cfb6154a53b7e44bba02f3a0aa": {
+      "title": "HDR-M-2.54_1X6",
+      "source": "344250e28f8493ea48a61094e4214317",
+      "version": "7804536f3d0a6f8cabea054e38e6ebf8",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "9a014af6b3514a36872307b134af3a68": {
+      "title": "HDR-M-2.54_1X6",
+      "source": "344250e28f8493ea48a61094e4214317",
+      "version": "55d65f5aefcb44f18a97a9ff18ddcaad",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "9c60c85b236a4a31a0f60772008e91be": {
+      "title": "HDR-M-2.54_1X6",
+      "source": "",
+      "version": 1740678711914,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e424be2dddbc4cc584651c203327ea3e": {
+      "title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+      "source": "86b1b29d72564d62861562f4bb2993d8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1718872061",
+      "type": 4,
+      "desc": ";插件,P=2mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "59d4df82a70a43809dc958a27ea6ffa8": {
+      "title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+      "source": "86b1b29d72564d62861562f4bb2993d8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1718872061",
+      "type": 4,
+      "desc": ";插件,P=2mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "4c7aec038f814a61a671b905adcefd7d": {
+      "title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+      "source": "86b1b29d72564d62861562f4bb2993d8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1718872061",
+      "type": 4,
+      "desc": ";插件,P=2mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "0eb14aa47f9e4e098f3614bee884a409": {
+      "title": "MICROSD_SHIELD_WEMOS_D1_MINI",
+      "source": "cb60a359283545c7b91e0e15d3df5dde|user",
+      "version": "1739849446",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "452336d51a4c48fd8f3de875a2b48449": {
+      "title": "mikroBUS_addOn_small",
+      "source": "",
+      "version": 1740734285654,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "6ba7399da45346c6b911db8045513b6c": {
+      "title": "R0603",
+      "source": "e83e314991e48aee62e2db43678e87c9",
+      "version": "316dad1ab9c29f7ae1b6363fe94cf1ca",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "9530d7354a8b48cca85e14e17bac9eca": {
+      "title": "R0603",
+      "source": "",
+      "version": 1740678715195,
+      "type": 4,
+      "desc": ";0603;-;1206;1608;0201;SMD;0805;---;2.2KR;R0603;R603;603;插件;Res2;0603R;ESD0603;0603-S;0603-R;LC-0603_R;RES0603;RES0603-SMD-2P;5101%;Res0603;ROHM Semiconductor",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "dd85a7fdc48949b1b7c721bb4b16e576": {
+      "title": "RASPBERRY-PI-PICO",
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "version": "d3a29417d0b496f6e21d1318e1dcec9a",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "da94eb4d139c4c55968ed11da5f26227": {
+      "title": "RASPBERRY-PI-PICO",
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "version": "3cb81306667a055e0e1e3b7a1578c397",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "eb8540d59d7344c69dfa5e5e40a704f1": {
+      "title": "RASPBERRY-PI-PICO",
+      "source": "",
+      "version": 1740678712403,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "b8fcf2ec455142e8b8e3b9070b1ce6a2": {
+      "title": "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+      "source": "dd9ca6daf6f3206364625588b0238a17",
+      "version": "2c157f5f98fa9871d56d79d26916172b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "29d6e60c072b4c089342e37ac78b4739": {
+      "title": "Screw-Hole-M2",
+      "source": "47abeaedbecf4377bd779a5cf1d7f22b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704952179",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "76ceb31d52844c6b98734bcdf1c0c01a": {
+      "title": "SW-TH_SK-12D02VG3",
+      "source": "422b0389f042fea553ba916ad1056e07",
+      "version": "a740b0ffd90da3f2680e1e07843547c4",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "ebcd02c7ba3049d2923a4907e0a705af": {
+      "title": "SW-TH_SK-12D02VG3",
+      "source": "422b0389f042fea553ba916ad1056e07",
+      "version": "94fae2f68bf5faa226b929ad6c5e0b5c",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "a0eb39fba4034e36aebf6bc64b78db58": {
+      "title": "SW-TH_SK-12D02VG3",
+      "source": "",
+      "version": 1740678714101,
+      "type": 4,
+      "desc": ";插件",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "0afde44db14142809659eacfdc9a2271": {
+      "title": "TO-263-3_L10.2-W9.2-P5.08-LS15.4-BR",
+      "source": "b657fc5d25f24d098f9fc4abeb02978d",
+      "version": "5d61505048b04991d08d15e22029424b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "f2c4ecda43844590abd492e5b6c5fc4a": {
+      "title": "TO-263-3_L10.2-W9.2-P5.08-LS15.4-BR",
+      "source": "b657fc5d25f24d098f9fc4abeb02978d",
+      "version": "cfcf32e2fb2443c7efbe30ef78e97b83",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "99c866f0dc084dd49f58c94eb08d139e": {
+      "title": "TO-263-3_L10.2-W9.2-P5.08-LS15.4-BR",
+      "source": "",
+      "version": 1740752627108,
+      "type": 4,
+      "desc": ";D2PAK;TO-263;TO-263-3;TO-263-2L;TO-263-3(D2PAK);TO-263-3L;TO-263-2;DPAK;D2PAK(TO-263);PG-TO-263-3-2;-;TO-263-3-2;TO-263(D2Pak);PG-TO-263-3;TO-263(D2PAK);TO-263AA;SMD;SOT-263",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "d9e37067ca004d56ae13a6c97e4e7752": {
+      "title": "TPA4056",
+      "source": "ee1adfe4a7881cbad5fa3e8aa840cb3b",
+      "version": "48a689228ee01b4d6d8a77f99cd524e6",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "55d2d14ad4dd4db8891b5fabcebf4cac": {
+      "title": "TPA4056",
+      "source": "",
+      "version": 1740678713762,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    }
+  },
+  "devices": {
+    "bbd4e7215a174e0f9d82417b513579a5": {
+      "title": "10 kΩ",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C410695",
+        "Manufacturer": "Tyohm(幸亚电阻)",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "",
+        "Footprint": "b8fcf2ec455142e8b8e3b9070b1ce6a2",
+        "Name": "10 kΩ",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "e11a40b902cc1368f6feff2ac62690ac",
+      "version": "a837068ac6bda8e3678b364f9a54a92c",
+      "custom_tags": ""
+    },
+    "70a2f63e25564fa7a8697defd892edb8": {
+      "title": "10k",
+      "attributes": {
+        "Supplier Part": "",
+        "Supplier": "",
+        "Symbol": "",
+        "Footprint": "6ba7399da45346c6b911db8045513b6c",
+        "Name": "10k",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "ad039decc20ecd7bdf5014346f2875ed",
+      "version": "647c89150c1138e6ee08458abb25d3a0",
+      "custom_tags": ""
+    },
+    "06f91c32cfa249f19f6a14ce43896d1e": {
+      "title": "10k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "ed75148ffc964abbb7d00fd981447952",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "9530d7354a8b48cca85e14e17bac9eca",
+        "Name": "10k",
+        "Description": "",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "ad039decc20ecd7bdf5014346f2875ed",
+      "version": "af9723283d6fe989b4c5b6616af025db",
+      "custom_tags": ""
+    },
+    "684cabd57be444c6bc9d07711bfd9099": {
+      "title": "150",
+      "attributes": {
+        "Supplier Part": "",
+        "Supplier": "",
+        "Symbol": "",
+        "Footprint": "6ba7399da45346c6b911db8045513b6c",
+        "Name": "150",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "7ef605fc8dba5425d6965fbd4c8fbe1f",
+      "version": "647c89150c1138e6ee08458abb25d3a0",
+      "custom_tags": ""
+    },
+    "fab0a6d0bec74caea0f612d6745d28f4": {
+      "title": "150",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "3631b46c22f64584996bb23ef1dbc1d1",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "9530d7354a8b48cca85e14e17bac9eca",
+        "Name": "150",
+        "Description": "",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "7ef605fc8dba5425d6965fbd4c8fbe1f",
+      "version": "3a4c5e4abda850b02be5663200d77798",
+      "custom_tags": ""
+    },
+    "b288eda16c754b8182b678c3ca9993d2": {
+      "title": "150Ω",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C410695",
+        "Manufacturer": "Tyohm(幸亚电阻)",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "",
+        "Footprint": "b8fcf2ec455142e8b8e3b9070b1ce6a2",
+        "Name": "150Ω",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "c7a415dc45376aca2901d74af638c8ed",
+      "version": "a837068ac6bda8e3678b364f9a54a92c",
+      "custom_tags": ""
+    },
+    "e699ebff09f940a9ada0641fd9946e4a": {
+      "title": "A_A4",
+      "attributes": {
+        "Symbol": "5f40abec1ff244fe8285f40ecc7fd216",
+        "@Project Name": "CAN modul",
+        "REV": "1.0",
+        "Date": "2025-02-07",
+        "Sheet": "1/1",
+        "Draw By": "Burger Alfréd",
+        "Company": "TFS SAT",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "A_A4",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "ed219438d1828fa614b25c079a9d66fc",
+      "version": "2dcb27e74dcba13d77e097d93558afb7",
+      "custom_tags": ""
+    },
+    "9a13b32c11f940f1863550bfd86f2b31": {
+      "title": "BH-18650",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C2988620",
+        "Manufacturer": "MYOUNG(美阳)",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "",
+        "Footprint": "5d6ab4b11cb84ee385f4724de0671c36",
+        "Name": "BH-18650",
+        "Designator": "BT?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "2067da811af9495aaa52601859115086",
+        "3D Model Title": "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "d1d2e0718bcca5a075379ec634489ccc",
+      "version": "d030904075ffe639467ec50a54585997",
+      "custom_tags": ""
+    },
+    "d74998c82a3f40bcba050d6f0d7b5719": {
+      "title": "BH-18650",
+      "attributes": {
+        "Designator": "BT?",
+        "Symbol": "c05b94329e524faabcd1833d54145a19",
+        "Supplier": "LCSC",
+        "Supplier Part": "C2988620",
+        "Manufacturer": "MYOUNG(美阳)",
+        "Manufacturer Part": "BH-18650-B1BA002",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "008ceaf62a93475b8f10012588728e11",
+        "Name": "BH-18650",
+        "Description": "",
+        "3D Model": "2067da811af9495aaa52601859115086",
+        "3D Model Title": "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "d1d2e0718bcca5a075379ec634489ccc",
+      "version": "960a9dc93ac3d1e0cc885ffdb978555e",
+      "custom_tags": ""
+    },
+    "f743437936884803aaad8032fac42fd1": {
+      "title": "BMP280",
+      "attributes": {
+        "Manufacturer": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Symbol": "",
+        "Footprint": "bc2a1be7da8a4328b7d7aae936b4813e",
+        "Name": "BMP280",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "c2a45e0ffdf3a5e10cd6af41822d3418",
+      "version": "73c8c91813a9d1817619a631988daf87",
+      "custom_tags": ""
+    },
+    "7b96fcbaa7da48a8b95a8a0329a55f87": {
+      "title": "BMP280",
+      "attributes": {
+        "Manufacturer": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Symbol": "",
+        "Footprint": "458f43976e514516a5e5b77959c28d3f",
+        "Name": "BMP280",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "c2a45e0ffdf3a5e10cd6af41822d3418",
+      "version": "2991bad6d821e98c961660bb18332eec",
+      "custom_tags": ""
+    },
+    "e9832c9741d24632a5bd6fc31a96a2c1": {
+      "title": "BMP280",
+      "attributes": {
+        "Designator": "U?",
+        "Name": "BMP280",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Description": "",
+        "Symbol": "32054e5b80274123818c0aca8de8a54f",
+        "Footprint": "894549460ae64334b92f177656bf13c8",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "c2a45e0ffdf3a5e10cd6af41822d3418",
+      "version": 1740735046955,
+      "custom_tags": ""
+    },
+    "53e5e42b6a9f4b16b224345d300c405b": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "c0452078d16842068dc654e40d2cc8db",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": ""
+    },
+    "e10835882a9d454aaac0859707a880da": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "d2ed8f1cfd704eb19b83fb320b6dd4f1",
+        "Footprint": "",
+        "Name": "GND",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07",
+      "version": "496380a0d2ffa15173a4c736c2d8caa8",
+      "custom_tags": ""
+    },
+    "62d3c435d1e74f07a9c36310e64f7448": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "492c63e875a14c6e9f1d2c2491ca3e0a",
+        "Footprint": "",
+        "Name": "GND",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07",
+      "version": "6584e04cc710722b4c21001ec0a2d6b9",
+      "custom_tags": ""
+    },
+    "a8305bbc53c74623bb1df71857396ee8": {
+      "title": "GNSS-14-CLICK",
+      "attributes": {
+        "Symbol": "4e43b0dc7e054e15bbc9660951fc2e7e",
+        "Name": "",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Footprint": "",
+        "Description": "Gps"
+      },
+      "description": "Gps",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2f458ea06cb145f6848f5f671dd4eaa8|1bca3ccc6f2c40519a6f771746d33905",
+      "version": "1740688504",
+      "custom_tags": "[]"
+    },
+    "5059b8519d354cbc8cf96457f476bdfb": {
+      "title": "GPSmikrob",
+      "attributes": {
+        "Designator": "U?",
+        "Name": "GY-NEO6MV2",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Description": "",
+        "Symbol": "e5a1fb9af0ae4a7c86833f54d42a4e77",
+        "Footprint": "452336d51a4c48fd8f3de875a2b48449",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "df9bab3a5a9943a2fbfd235db6688fd6",
+      "version": 1740734323235,
+      "custom_tags": ""
+    },
+    "470b075f09bb4cb4b27cfade16da6141": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "1549e689e01449a5a7014d89d0d3bfda",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "e3088515d24f444aac8f46e516d3b08e": {
+      "title": "GY-NEO6MV2",
+      "attributes": {
+        "Symbol": "",
+        "Footprint": "a25b09f732674062ae9e667d7f50b3d6",
+        "Name": "GY-NEO6MV2",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "df9bab3a5a9943a2fbfd235db6688fd6",
+      "version": "a3f18ac8b6c2d983edadac9fbf6ee99c",
+      "custom_tags": ""
+    },
+    "410ee83bca534669ae97c2a50284146f": {
+      "title": "GY-NEO6MV2",
+      "attributes": {
+        "Symbol": "",
+        "Footprint": "d4e94a69f2864d03b8101d0b105a6a61",
+        "Name": "GY-NEO6MV2",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "df9bab3a5a9943a2fbfd235db6688fd6",
+      "version": "6d1974cb159c406962f5138cb2c772f1",
+      "custom_tags": ""
+    },
+    "ef35c69e75594a35983587f785b2a495": {
+      "title": "HDR-M_2.54_1x1P",
+      "attributes": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "865868813c5949aebaebd17fad5fa810",
+        "Designator": "H?",
+        "Footprint": "e424be2dddbc4cc584651c203327ea3e",
+        "Supplier Footprint": "Through",
+        "3D Model": "728f8802f5b64d9eac2f12b79a6c354c",
+        "3D Model Title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+        "3D Model Transform": "78.74,79.1337,0,0,0,0,0,0,-110.236",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6e9a519437ce41ab862fa5912f4509fc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657001926",
+      "custom_tags": "[]"
+    },
+    "f4797bcb5e4f4371a276c2b65bf16fbe": {
+      "title": "HDR-M_2.54_1x1P",
+      "attributes": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b364e4a210b046b8b19370f885d56aad",
+        "Designator": "H?",
+        "Footprint": "59d4df82a70a43809dc958a27ea6ffa8",
+        "Supplier Footprint": "Through",
+        "3D Model": "728f8802f5b64d9eac2f12b79a6c354c",
+        "3D Model Title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+        "3D Model Transform": "78.74,79.1337,0,0,0,0,0,0,-110.236",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6e9a519437ce41ab862fa5912f4509fc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657001926",
+      "custom_tags": "[]"
+    },
+    "4f1d7705ab9c4599adbe2096a87ac911": {
+      "title": "HDR-M_2.54_1x1P",
+      "attributes": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "7ff9fcdcd6d14633bb47f97f68f7447c",
+        "Designator": "H?",
+        "Footprint": "4c7aec038f814a61a671b905adcefd7d",
+        "Supplier Footprint": "Through",
+        "3D Model": "728f8802f5b64d9eac2f12b79a6c354c",
+        "3D Model Title": "HDR-TH_1P-V-M_XKB_X4611WV-01I-C28D40",
+        "3D Model Transform": "78.74,79.1337,0,0,0,0,0,0,-110.236",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6e9a519437ce41ab862fa5912f4509fc|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657001926",
+      "custom_tags": "[]"
+    },
+    "4275ca28b396496b871f672010fd3e88": {
+      "title": "HW290",
+      "attributes": {
+        "Manufacturer": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Symbol": "",
+        "Footprint": "80538d4f165145219b8fe5c05611bbb6",
+        "Name": "HW290",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "a89715cbb56d851ee0c8cb5c8b52ee06",
+      "version": "d0f27f21cf180871dc0a6c19e787fa18",
+      "custom_tags": ""
+    },
+    "4b0c0673a89d496c921e2c7d042d5998": {
+      "title": "HW290",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "51d8ed0fb020492d9141901073f5f306",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "1b5e6557b6874b8399827b8d2b965f4e",
+        "Name": "HW290",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "a89715cbb56d851ee0c8cb5c8b52ee06",
+      "version": "d0cbf61fe583f01590ff09e696ec907e",
+      "custom_tags": ""
+    },
+    "efc1f3d6bee54a5091a4758dad076b13": {
+      "title": "IRLZ44NSPBF-VB",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C19188232",
+        "Manufacturer": "VBsemi(微碧半导体)",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "",
+        "Footprint": "0afde44db14142809659eacfdc9a2271",
+        "Name": "IRLZ44NSPBF-VB",
+        "Designator": "Q?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "5b26c69157c43ab480e62ea5b4eed863",
+      "version": "7747816144e40063d1eb1205ae018f19",
+      "custom_tags": ""
+    },
+    "76762e44b0d141519d0de9c65e6adc40": {
+      "title": "IRLZ44NSPBF-VB",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C19188232",
+        "Manufacturer": "VBsemi(微碧半导体)",
+        "JLCPCB Part Class": "Extended Part",
+        "Symbol": "",
+        "Footprint": "f2c4ecda43844590abd492e5b6c5fc4a",
+        "Name": "IRLZ44NSPBF-VB",
+        "Designator": "Q?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "5954b3441d614c30a786f215a9a41617",
+        "3D Model Title": "TO-263-3_L10.2-W9.2-P5.08-LS15.4-BR"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "5b26c69157c43ab480e62ea5b4eed863",
+      "version": "0a09fbae747aeebc4363b213f06b9b73",
+      "custom_tags": ""
+    },
+    "db1e98b3c8f1418e8a61d6a99fa7d0bb": {
+      "title": "IRLZ44NSPBF-VB",
+      "attributes": {
+        "Designator": "Q?",
+        "Symbol": "dd250e52aeb2485f887e733ff988b106",
+        "Supplier": "LCSC",
+        "Supplier Part": "C19188232",
+        "Manufacturer": "VBsemi(微碧半导体)",
+        "Manufacturer Part": "IRLZ44NSPBF-VB",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "99c866f0dc084dd49f58c94eb08d139e",
+        "Name": "IRLZ44NSPBF-VB",
+        "Description": "",
+        "3D Model": "5954b3441d614c30a786f215a9a41617",
+        "3D Model Title": "TO-263-3_L10.2-W9.2-P5.08-LS15.4-BR"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "5b26c69157c43ab480e62ea5b4eed863",
+      "version": "51173b4799207ed314064d943d2e1911",
+      "custom_tags": ""
+    },
+    "fc160a82d7ab4907bb912e896e33625a": {
+      "title": "M",
+      "attributes": {
+        "Supplier Part": "C124375",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Symbol": "",
+        "Footprint": "a49c1469bbd74c8d92a3e913079210da",
+        "Name": "M",
+        "Designator": "J?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "69691c7bdcc3ce6d5d8a1361f22d04ac",
+      "version": "0ea491d76c85c4b0009100914d32c79b",
+      "custom_tags": ""
+    },
+    "d1b489b548734ccab26cf5e397f49d26": {
+      "title": "M",
+      "attributes": {
+        "Supplier Part": "C124375",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Symbol": "",
+        "Footprint": "21cc3402ef1b4208859f4f3448756f9c",
+        "Name": "M",
+        "Designator": "J?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "6d5613aac6214ae785f1a03ebca5bad5",
+        "3D Model Title": "HDR-M-2.54_1x2"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "69691c7bdcc3ce6d5d8a1361f22d04ac",
+      "version": "b7e51371183ea22cc8a4859838707036",
+      "custom_tags": ""
+    },
+    "67608bb2b4d241f09913579809d274f1": {
+      "title": "M",
+      "attributes": {
+        "Designator": "J?",
+        "Symbol": "b7db0c1b503e411da8ed529553f96227",
+        "Supplier Part": "C124375",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "4cff6af1491a4c78bd1aa6b9f1b679b6",
+        "Name": "M",
+        "Description": "",
+        "3D Model": "6d5613aac6214ae785f1a03ebca5bad5",
+        "3D Model Title": "HDR-M-2.54_1x2"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "69691c7bdcc3ce6d5d8a1361f22d04ac",
+      "version": "eb65bb6de849069d35e7d0d4a690df87",
+      "custom_tags": ""
+    },
+    "6cf95555afd94785a479455db4d6497e": {
+      "title": "MICROSD_SHIELD_WEMOS_D1_MINI",
+      "attributes": {
+        "Name": "",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e9452366904e45fcaed1e752939641a7",
+        "Footprint": "0eb14aa47f9e4e098f3614bee884a409",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6c056bdf82a849d08cb9222d734a80ff|user",
+      "version": "1739849672",
+      "custom_tags": "[]"
+    },
+    "dfb0b6d1c7854c039e8f3e718256806a": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Global Net Name": "VCC",
+        "Name": "",
+        "Symbol": "74e56f0c258c40a38a49dcff713611be",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "7737efc32ff44ecb8cf68152f3fbd014|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254107",
+      "custom_tags": "[]"
+    },
+    "dc23551e4fa348e495a44ff073735727": {
+      "title": "RASPBERRY-PI-PICO",
+      "attributes": {
+        "Supplier": "Raspberry Pi",
+        "Supplier Part": "RP2040",
+        "Manufacturer": "Raspberry Pi Foundation",
+        "Symbol": "",
+        "Footprint": "dd85a7fdc48949b1b7c721bb4b16e576",
+        "Name": "RASPBERRY-PI-PICO",
+        "Designator": "?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "version": "4f728c8c04a4584ad026b1982a2a9af5",
+      "custom_tags": ""
+    },
+    "185779794870492bbde52eeaf23fb7fe": {
+      "title": "RASPBERRY-PI-PICO",
+      "attributes": {
+        "Supplier": "Raspberry Pi",
+        "Supplier Part": "RP2040",
+        "Manufacturer": "Raspberry Pi Foundation",
+        "Symbol": "",
+        "Footprint": "da94eb4d139c4c55968ed11da5f26227",
+        "Name": "RASPBERRY-PI-PICO",
+        "Designator": "?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "version": "cd03de004698bf909c44f4787a29f920",
+      "custom_tags": ""
+    },
+    "0bf17badb4264aa28146f629e85f5fde": {
+      "title": "RASPBERRY-PI-PICO",
+      "attributes": {
+        "Designator": "?",
+        "Symbol": "e235c3853a684cd5a9f265d6fde9a7d2",
+        "Supplier": "Raspberry Pi",
+        "Supplier Part": "RP2040",
+        "Manufacturer": "Raspberry Pi Foundation",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "eb8540d59d7344c69dfa5e5e40a704f1",
+        "Name": "RASPBERRY-PI-PICO",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b8f6ba502edb99e0a7791d80ca356dcd",
+      "version": "6d34f5e34b76623ffe507d85936538da",
+      "custom_tags": ""
+    },
+    "318135131f6840d6888ca5787ef7f39c": {
+      "title": "Screw-Hole-M2",
+      "attributes": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5d16c47021564053bc696f088ab7a01b",
+        "Designator": "SCREW?",
+        "Name": "",
+        "Supplier Footprint": "插件",
+        "Footprint": "29d6e60c072b4c089342e37ac78b4739",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "50e7eb2d68074074b6cb0078d7934331|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1704952125",
+      "custom_tags": "[]"
+    },
+    "3b22b907a4b244189a85c4a28afd3f82": {
+      "title": "SK-12D02-VG5",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C136722",
+        "Manufacturer": "Rectangular Connectors - Contacts",
+        "Symbol": "",
+        "Footprint": "76ceb31d52844c6b98734bcdf1c0c01a",
+        "Name": "SK-12D02-VG5",
+        "Designator": "SW?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b604fbca6f671cbd625ae26e0e3d6fd1",
+      "version": "bface6055b41b1536e92f6ee6f7197b3",
+      "custom_tags": ""
+    },
+    "be3054a51fd744709a4c8737e07c8888": {
+      "title": "SK-12D02-VG5",
+      "attributes": {
+        "Supplier": "LCSC",
+        "Supplier Part": "C136722",
+        "Manufacturer": "Rectangular Connectors - Contacts",
+        "Symbol": "",
+        "Footprint": "ebcd02c7ba3049d2923a4907e0a705af",
+        "Name": "SK-12D02-VG5",
+        "Designator": "SW?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "f47f213cd2aa406588435b2640ed3976",
+        "3D Model Title": "SW-TH_SK-12D02VG3"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b604fbca6f671cbd625ae26e0e3d6fd1",
+      "version": "80133202a0d560db96dad0ba1baba100",
+      "custom_tags": ""
+    },
+    "80958dcb3dc340e9aca5e28738f176ef": {
+      "title": "SK-12D02-VG5",
+      "attributes": {
+        "Designator": "SW?",
+        "Symbol": "809d6ef484694d65a9c6c2eaac17579f",
+        "Supplier": "LCSC",
+        "Supplier Part": "C136722",
+        "Manufacturer": "Rectangular Connectors - Contacts",
+        "Manufacturer Part": "SK-12D02-VG5",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "a0eb39fba4034e36aebf6bc64b78db58",
+        "Name": "SK-12D02-VG5",
+        "Description": "",
+        "3D Model": "f47f213cd2aa406588435b2640ed3976",
+        "3D Model Title": "SW-TH_SK-12D02VG3"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "b604fbca6f671cbd625ae26e0e3d6fd1",
+      "version": "9ad22f6e6e291a4707a368fa29eb1dc6",
+      "custom_tags": ""
+    },
+    "b4b23cf49744479e8867004ae1124103": {
+      "title": "TPA4056",
+      "attributes": {
+        "Symbol": "",
+        "Footprint": "d9e37067ca004d56ae13a6c97e4e7752",
+        "Name": "TPA4056",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "ee1adfe4a7881cbad5fa3e8aa840cb3b",
+      "version": "e1a23ffce9d2cf0d4151ba5deb2c2330",
+      "custom_tags": ""
+    },
+    "b8515c589b0a4916a33273babf016330": {
+      "title": "TPA4056",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "2838fff4815442daa0ea7872480bb1f0",
+        "Manufacturer Part": "Djinn_sensor SchematicLib",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "55d2d14ad4dd4db8891b5fabcebf4cac",
+        "Name": "TPA4056",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "ee1adfe4a7881cbad5fa3e8aa840cb3b",
+      "version": "e4d99a5037acc014ae8da4d8f433aff5",
+      "custom_tags": ""
+    },
+    "bd6ceea81dcb4d36870ffaf1f4ffc427": {
+      "title": "VCC",
+      "attributes": {
+        "Symbol": "ad418a8705f3438c8cbd07ad55de140d",
+        "Footprint": "",
+        "Name": "VCC",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "01db972763294804a52bbb74cc96a867",
+      "version": "66984c20c349f049e3f1fc355a80bc62",
+      "custom_tags": ""
+    },
+    "6bf7605d8d4a48cf856beaf2611e88ea": {
+      "title": "VCC",
+      "attributes": {
+        "Symbol": "598fcef7b7124212bff633b064eee9ad",
+        "Footprint": "",
+        "Name": "VCC",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "01db972763294804a52bbb74cc96a867",
+      "version": "c57a5691c03113e80f5cc9766b3778ac",
+      "custom_tags": ""
+    },
+    "c2d9625d4391456f8d86c5e349356160": {
+      "title": "WRL089",
+      "attributes": {
+        "Supplier Part": "C190819",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Symbol": "",
+        "Footprint": "926b77cfb6154a53b7e44bba02f3a0aa",
+        "Name": "WRL089",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "6bb7580a82a14afe9533f94424cbcce3",
+      "version": "bab235899b6b311f873fd20b9a245f43",
+      "custom_tags": ""
+    },
+    "7fa434839de94ff78ee3941679b01df6": {
+      "title": "WRL089",
+      "attributes": {
+        "Supplier Part": "C190819",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Symbol": "",
+        "Footprint": "9a014af6b3514a36872307b134af3a68",
+        "Name": "WRL089",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "72f257e6919043f0895e97b1770fd1cf",
+        "3D Model Title": "HDR-M-2.54_1x6"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "6bb7580a82a14afe9533f94424cbcce3",
+      "version": "4e73453f89f79a80b50b575aaa8fa3fc",
+      "custom_tags": ""
+    },
+    "59a3aff5e56e413cab1bc72131aba432": {
+      "title": "WRL089",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "87d6547e1e674c18bcf248a4452fa61b",
+        "Supplier Part": "C190819",
+        "Supplier": "LCSC",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "9c60c85b236a4a31a0f60772008e91be",
+        "Name": "WRL089",
+        "Description": "",
+        "3D Model": "72f257e6919043f0895e97b1770fd1cf",
+        "3D Model Title": "HDR-M-2.54_1x6"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "6bb7580a82a14afe9533f94424cbcce3",
+      "version": "ae865fe0f3ecb8cdb428a1faf1441bbe",
+      "custom_tags": ""
+    }
+  },
+  "boards": {
+    "Full Hardware": {
+      "schematic": "1c2703e82cb44082bbc8c39acb681d67",
+      "pcb": "301bf6637ece4a0684339634380c1293"
+    },
+    "Main Board": {
+      "schematic": "05830e751d594c8395558bba29865d87",
+      "pcb": "c137c4df5d9e4c59aba1a40aacdd615f"
+    },
+    "Aux Board": {
+      "schematic": "81e28682bf89485fb72307933604b775",
+      "pcb": "a4f66a0989e7459bbca8286e4263dcb2"
+    }
+  },
+  "config": {
+    "title": "PCB_Design",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "2.2.36.8"
+  }
+}
