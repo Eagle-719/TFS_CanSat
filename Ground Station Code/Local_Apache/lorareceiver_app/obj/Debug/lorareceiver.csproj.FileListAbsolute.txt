@@ -5,3 +5,14 @@ D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.csprojA
 D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.csproj.CoreCompileInputs.cache
 D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.exe
 D:\MEGA\CANSAT\KODOK\GPS térkép\C#\lorareceiver\obj\Debug\lorareceiver.pdb
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\bin\Debug\lorareceiver.exe.config
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\bin\Debug\lorareceiver.exe
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\bin\Debug\lorareceiver.pdb
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.csproj.AssemblyReference.cache
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.csproj.CoreCompileInputs.cache
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.exe
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.pdb
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\bin\Debug\lorareceiver.exe.manifest
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\bin\Debug\lorareceiver.application
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.exe.manifest
+C:\Users\alfre\Documents\GitHub\TFS_CanSat\Ground Station Code\Local_Apache\lorareceiver_app\obj\Debug\lorareceiver.application

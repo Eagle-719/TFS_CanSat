@@ -64,8 +64,14 @@ class Program
                 // Alap parancsok elküldése
                 serialPort.Write("sys reset\r\n");
                 System.Threading.Thread.Sleep(1000); // Várakozás az újraindulásra
-                //serialPort.Write("radio set sf sf12\r\n");//Érzékenység
-                //System.Threading.Thread.Sleep(1000); // Várakozás az újraindulásra
+                                                     //serialPort.Write("radio set sf sf12\r\n");//Érzékenység
+                                                     //System.Threading.Thread.Sleep(1000); // Várakozás az újraindulásra
+                Console.WriteLine("Enter desired frequency");
+                string freq = Console.ReadLine();
+                serialPort.Write("radio set pa on\r\n");
+                serialPort.Write("radio set freq " + freq+ "\r\n");
+                serialPort.Write("radio set pwr 20\r\n");
+                serialPort.Write("radio set bw 250\r\n");
                 serialPort.Write("radio rx 0\r\n");//Vétel
                 System.Threading.Thread.Sleep(500); // Várakozás az újraindulásra
 

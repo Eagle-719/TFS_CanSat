@@ -1,7 +1,7 @@
 <?php
 set_time_limit(0); // Ne legyen időkorlát
 $flagFile = __DIR__ . "\\flag.txt"; // Flag fájl útvonala
-$serverUrl = "https://burger.hu";
+$serverUrl = "https://www.trefort.elte.hu/CANSAT/update.php";
 $dataFile = __DIR__ . "\\adatok.txt";
 $logFile = __DIR__ . "\\send_data.log";
 $counter = 0;
