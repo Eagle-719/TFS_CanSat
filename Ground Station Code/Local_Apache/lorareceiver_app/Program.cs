@@ -69,9 +69,13 @@ class Program
                 Console.WriteLine("Enter desired frequency");
                 string freq = Console.ReadLine();
                 serialPort.Write("radio set pa on\r\n");
+                System.Threading.Thread.Sleep(500);
                 serialPort.Write("radio set freq " + freq+ "\r\n");
+                System.Threading.Thread.Sleep(500);
                 serialPort.Write("radio set pwr 20\r\n");
+                System.Threading.Thread.Sleep(500);
                 serialPort.Write("radio set bw 250\r\n");
+                System.Threading.Thread.Sleep(500);
                 serialPort.Write("radio rx 0\r\n");//Vétel
                 System.Threading.Thread.Sleep(500); // Várakozás az újraindulásra
 
