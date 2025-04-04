@@ -1,9 +1,7 @@
 def filter_lines(input_file, output_file, prefix):
     try:
         with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
-            # Iterate over each line in the input file
             for line in infile:
-                # Check if the line starts with the desired prefix
                 if line.startswith(prefix):
                     outfile.write(line)
         print(f"Filtered lines written to {output_file}")
